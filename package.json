@@ -10,17 +10,18 @@
     "devel": "yarn net | yarn serve"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "consolidate": "^0.15.1",
     "express": "^4.16.3",
-    "lodash": "^4.17.10",
-    "twit": "^2.2.9",
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "twit": "^2.2.9"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.11",
     "@vue/cli-plugin-eslint": "^3.0.0-beta.11",
     "@vue/cli-service": "^3.0.0-beta.11",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
     "vue-template-compiler": "^2.5.16"
   },
   "eslintConfig": {
