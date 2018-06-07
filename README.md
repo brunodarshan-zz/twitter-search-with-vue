@@ -4,6 +4,18 @@ __Search Twitter API With VueJS__
 A simple component builded with VueJs and Twitter API with a ExpressJS Middleware
 
 ## How I Use
+
+Firstly register a app on Twitter. Then setup the configurations on `index.js`.
+
+``` 
+config = {
+  consumer_key: '..',
+  consumer_secret: '..',
+  access_token: '..',
+  access_token_secret: '..'
+}
+``` 
+
 ### 1 - How I Use (Production Mode)
 
 - Clone this repository

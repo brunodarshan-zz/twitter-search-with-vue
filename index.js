@@ -11,10 +11,10 @@ app.use(express.static('dist'));
 app.set('view engine', 'html');
 
 config = {
-  consumer_key: 'g48r5bHtLyX79isr5vnVX3q1T',
-  consumer_secret: '1eM4eh55Nxc5QIgPpLXg08RqObAIiuVYRDOZmn2EKE9JLj21Dk',
-  access_token: '15457877-MnVgYJ0PQNblvDscSk2UJL0DI5upsTX1nuKyT8py4',
-  access_token_secret: 'q8UESH9hZ1E6oOys94t17Xbmd10wLpWpWWOBNZFvuX8ss'
+  consumer_key: '..',
+  consumer_secret: '..',
+  access_token: '..',
+  access_token_secret: '..'
 }
 
 const T = new twit(config);
